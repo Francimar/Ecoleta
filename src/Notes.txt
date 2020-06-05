@@ -1,0 +1,14 @@
+Instalação do Servidor
+npm install express ( servidor )
+npm install nodemon -D 
+  (monitora o server -- Reload após modificações)
+  -D -> Dependência de desenvolvimento (só funciona
+  enquanto estiver desenvolvendo)
+
+"start": "nodemon src/server.js"
+  configuração no package.json para uso no terminal
+
+npm install nunjucks
+  Deixa o html mais dinâmico e não tão estático
+  Poderei usar várias funções (if, por exemplo)
+  dentro dele
